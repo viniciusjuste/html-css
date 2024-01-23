@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            Geralmente 16px = 1em
+            A recomendação oficial é que se use px e em
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* 
+             shorthand font
+             - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+          font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bolder 2em 'work sans', sans-serif;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quisquam recusandae quibusdam obcaecati aliquam quidem, quo modi quia? Voluptates fuga harum qui commodi necessitatibus nemo fugit rem, explicabo aliquam consequatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur exercitationem perferendis ab quasi, id iusto et natus possimus minima, unde distinctio. Consequatur enim neque laboriosam nulla saepe ullam accusantium sed!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, dignissimos officia. Earum ex repellendus corrupti, quasi obcaecati alias explicabo eligendi nostrum pariatur veritatis ratione expedita reiciendis provident optio cum? Illo!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam harum nisi ad sequi corporis tempora explicabo tenetur cupiditate veniam. Temporibus aliquid eius dolorem! Similique necessitatibus excepturi suscipit enim, obcaecati beatae?</p>
+</body>
+</html>
